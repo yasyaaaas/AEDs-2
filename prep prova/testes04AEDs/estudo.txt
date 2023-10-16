@@ -1,0 +1,27 @@
+estudo.txt
+
+fazer os ex dos slides e ir estudando e monitoria
+- tad_Flexivel - intrudoção
+  [x] fazer e executar o código dos slides
+- tad_Flexivel - pilha
+  [x] fazer e executar o código dos slides
+  [x] 7 exs
+- tad_Linear - pilha
+  -> o mesmo que um array em pilha
+- tad_Flexivel - fila
+  [x] fazer e executar o código dos slides
+  [x] 8 exs resolvidos
+  [x] 4 ex para fazer 
+  OBS: dúvida no ex resolvido 5, no ex 2, e explicar o ex 7
+- tad_Linear - fila
+  -> o mesmo qeu um array em fila
+- tad_Flexivel - lista simples
+  [x] fazer e executar o código dos slides
+  [x] 4 exs
+- tad_Flexivel - lista dupla
+  [x] fazer e executar o código dos slides
+  [x] 4 exs
+  [x] olhar erro do inverter (era bobo)
+- tad_Flexivel - matriz
+  [x] fazer e executar o código dos slides
+  [x] 2 exs
