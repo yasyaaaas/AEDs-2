@@ -154,7 +154,7 @@ public class ABIntro {
         raiz.dir = left;
         raiz.esq = right;
 
-        return root;
+        return raiz;
         /*
         ou 
         if (riaz == null) return raiz;
