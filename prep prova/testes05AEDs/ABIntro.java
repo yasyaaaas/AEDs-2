@@ -129,6 +129,45 @@ public class ABIntro {
         return resp;
     }
 
+    // ve se é simetrico
+    public static boolean isSymmetric(No raiz) {
+       return(isMirror(raiz,raiz)); // "cria" dias arvores da mesma arvore
+    }
+
+    public static boolean isMirror(No r1, No r2){
+        if (r1 == null && r2 == null) return true;
+        if (r1 == null || r2 == null) return false;
+        
+        return (r1.elemento == r2.elemento) && isMirror(r1.esq, r2.dir) && isMirror(r1.dir, r2.esq); 
+        // compara os lados diferentes das duas arvores
+    }
+
+    // inverter arvore
+    public static No invertTree(No raiz) {
+        if ( raiz == null){
+            return raiz;
+        }
+        No left = invertTree(raiz.esq);
+        No right = invertTree(raiz.dir);
+
+        //swap
+        raiz.dir = left;
+        raiz.esq = right;
+
+        return root;
+        /*
+        ou 
+        if (riaz == null) return raiz;
+
+        -> SWAP
+        No tmp = raiz.esq;
+        raiz.esq = invertTree(raiz.dir);
+        raiz.dir = invertTree(tmp);
+
+        return raiz;
+        */
+    }
+
     public static void main(String[] args) throws Exception {
         ArvoreBinaria ab = new ABIntro().new ArvoreBinaria();
         ab.inserir(3);
